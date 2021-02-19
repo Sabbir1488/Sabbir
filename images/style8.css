@@ -1,0 +1,209 @@
+* {
+	padding: 0px;
+	margin: 0px;
+	font-family: tahoma;
+}
+a {
+	text-decoration: none;
+}
+ul {
+	list-style: none;
+}
+
+/*=======upwork header style start=======*/
+
+.header {
+	background-color: #fff;
+    border-bottom: 1px solid #e0e0e0;
+    height: 70px;
+    display: block;
+
+}
+.mid {
+	width: 95%;
+	margin: auto;
+
+}
+.he-left {
+	float: left;
+}	
+
+.he-left .logo {
+	margin-top: 15px;
+	float: left;
+}
+.he-left .reg1 {
+	float: left;
+	
+
+}
+.he-left .reg1 input {
+	padding: 10px 41px;
+    height: 100%;
+    margin: 0;
+    width: 55%;
+    font-size: 14px;
+    border-radius: 2px;
+    border: 2px solid #e0e0e0;
+    font-weight: normal;
+    box-sizing: border-box;
+    margin-top: 13px;
+    margin-left: 10px;
+}
+.he-left .reg1 input:hover {
+	border: 3px solid yellowgreen;
+}
+.he-left .reg1 a, .he-right .reg2 a {
+	color: #7d7d7d;
+	font-size: 12px;
+	margin-left: 20px;
+	font-weight: 600;
+	text-transform: uppercase;
+}
+.he-left .reg1 a:hover, .he-right .reg2 a:hover {
+	color: #37a000;
+}
+
+
+.he-right {
+	float: right;
+	
+	margin-top: 10px;
+	
+}
+.he-right .reg2 input {
+	display: inline-block;
+    font-weight: bold;
+    color: #00832F;
+    width: 50%;
+    font-weight: 600;
+    text-align: center;
+    cursor: pointer;
+    border: 2px solid #e0e0e0;
+    padding: 12px 12px;
+    font-size: 14px;
+    line-height: 20px;
+    border-radius: 2px;
+}
+.he-right .reg2 input:hover {
+	border-color: #008329;
+    color: #008329;
+}
+.he-right .reg2 a {
+	margin-right: 10px;
+}
+/*=======upwork header style end=======*/
+
+/*=======upwork body style start=======*/
+
+.up-body {
+	background: url(images/upi.jpg) no-repeat;
+	background-size: cover;
+    background-position: center center;
+    height: 600px;
+    overflow: hidden;
+}
+.up-body .reg {
+	width: 58.3333%;
+	margin-top: 100px;
+	padding-left: 15px;
+    padding-right: 15px;
+    text-align: left;
+}
+.up-body .reg h1 {
+	color: #f9ee6b;
+	text-transform: uppercase;
+	font-style: italic;
+	font-size: 60px;
+	word-spacing: 5px;
+	font-weight: 900;
+}
+.up-body .reg h2 {
+	color: #fff;
+	font-size: 35px;
+	text-transform: uppercase;
+	font-style: italic;
+	word-spacing: 5px;
+	font-weight: 900;
+}
+.up-body .reg2 input[type="text"] {
+	height: 50px;
+	width: 40%;
+	float: left;
+	margin-top: 20px;
+	border-right: 0 none;
+    border-color: #e0e0e0;
+    color: #494949;
+    font-size: 16px;
+	font-weight: 300;
+    background-color: #fff;
+    border: 2px solid #e0e0e0;
+    border-radius: 2px;
+}
+.up-body .reg2 input[type="submit"] {
+	background-color: #F9EE6B;
+	font-size: 16px;
+	font-weight: 300;
+	margin-top: 20px;
+    border-color: #37a000;
+    padding: 14px 55px;
+    cursor: pointer;
+    margin-left: -3px;
+}
+.up-body .reg2 input[type="submit"]:hover {
+	background: #F7E83A; 
+}
+
+/*=======upwork body style end=======*/
+
+/*=======upwork footer style start=======*/
+
+.up-footer {
+	background-color: #7d7d7d;
+    color: #e0e0e0;
+    width: 100%;
+    height: 100%;
+    padding-bottom: 35%;
+    padding-top: 76px;
+    font-size: 16px;
+    font-weight: 300;
+    
+}
+.up-footer .ul1, .ul2, .ul3 {
+	float: left;
+	font-weight: bold;
+	margin-left: 30px;
+	background-color: #7d7d7d;
+}
+.up-footer .ul1 li a, .ul2 li a, .ul3 li a {
+	color: #e0e0e0;
+	font-size: 14px;
+	font-weight: 300;
+
+}
+.up-footer .ul1 li a:hover, .ul2 li a:hover, .ul3 li a:hover {
+	color: #E3EEEE;
+}
+.up-footer .ul2 {
+	margin-left: 350px;
+}
+.up-footer .ul3 {
+	margin-left: 300px;
+}
+.up-footer .ul1 {
+	line-height: 30px;
+}
+.up-footer .ul2 {
+	line-height: 37px;
+}
+.up-footer .ul3 {
+	line-height: 40px;
+}
+.up-footer .ul2 p {
+    margin-top: 60px;
+    margin-left: 45px;
+	font-size: 12px;
+	color: #e0e0e0;
+}
+/*=======upwork footer style end=======*/
+
